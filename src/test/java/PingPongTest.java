@@ -13,7 +13,7 @@ public class PingPongTest {
         assertEquals(expectedOutput, testPingPong.runPingPong(1));
     }
     @Test
-    public void runPingPong_countUpToGivenNumber_ArrayList() throws Exception {
+    public void runPingPong_countUpToGivenNumber_ArrayList() throws Exception{
         PingPong testPingPong = new PingPong();
         ArrayList<Object> expectedOutput = new ArrayList<Object>();
         expectedOutput.add(1);
@@ -30,7 +30,7 @@ public class PingPongTest {
         expectedOutput.add("ping");
         expectedOutput.add(13);
         expectedOutput.add(14);
-        expectedOutput.add("pingpong");
+        expectedOutput.add("pinging");
 
         assertEquals(expectedOutput, testPingPong.runPingPong(15));
     }
